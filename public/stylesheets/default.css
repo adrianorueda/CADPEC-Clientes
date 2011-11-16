@@ -1,0 +1,40 @@
+body
+{
+font-family: Verdana, Arial, sans-serif;
+font-size: 100%;
+margin: 0;
+padding: 0;
+}
+h1#header
+{
+background-color: #ccc;
+color: black;
+padding: 10px 10px 15px;
+margin: 0;
+}
+ul#menu
+{
+padding: 5px 10px;
+margin: 0;
+border-bottom: 1px solid #ccc;
+}
+ul#menu li
+{
+display: inline;
+margin-right: 5px;
+font-weight: bold;
+}
+ul#menu a
+{
+text-decoration: none;
+font-weight: normal;
+}
+div#contents
+{
+margin: 10px;
+}
+div#contents h1
+{
+font-size: 130%;
+font-style: italic;
+}

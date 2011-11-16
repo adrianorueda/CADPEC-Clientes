@@ -1,0 +1,62 @@
+<p>
+  <h3>Nome:
+  <b style='color:#FF0000;'><%=h @cliente.nome %></b>
+  Num. Cliente:
+  <b style='color:#FF0000;'><%=h @cliente.id %></b></h3>
+</p>
+
+<p>
+  <b>Endereço:</b>
+  <%=h @cliente.endereco %>
+</p>
+
+<p>
+  <b>Cidade:</b>
+  <%=h @cliente.cidade %>
+</p>
+
+<p>
+  <b>Estado:</b>
+  <%=h @cliente.estado %>
+</p>
+
+<p>
+  <b>CEP:</b>
+  <%=h @cliente.cep %>
+</p>
+
+<p>
+  <b>Fone:</b>
+  <%=h @cliente.operadora %>
+  <%=h @cliente.fone %>
+</p>
+
+<h2>Agenda</h2>
+<% @cliente.agendas.each do |g| %>
+
+  <p>
+    <b>Retornar em:</b>
+    <b style='color:#FF0000;'><%=h g.retorno %></b>
+    <b>Agendado em:</b>
+    <%=h g.updated_at %>
+  </p>
+<% end %>
+
+<h2>Histórico de Contatos</h2>
+<% @cliente.historicos.each do |c| %>
+  <p>
+    <b>Data:</b>
+    <%=h c.created_at %>
+    <b>Alterado:</b>
+    <%=h c.updated_at %>
+    <b>Observação:</b>
+    <b style='color:#FF0000;'><%=h c.observ %></b>
+  </p>
+<% end %>
+
+<%= link_to 'Editar cliente', edit_cliente_path(@cliente) %> |
+<%= link_to 'Voltar para clientes', clientes_path %> | 
+<%= link_to 'Gerenciar Contatos', cliente_historicos_path(@cliente) %> | 
+<%= link_to 'Novo Contato', new_cliente_historico_path(@cliente) %> | 
+<%= link_to 'Gerenciar Agenda', cliente_agendas_path(@cliente) %> | 
+<%= link_to 'Nova Agenda', new_cliente_agenda_path(@cliente) %>

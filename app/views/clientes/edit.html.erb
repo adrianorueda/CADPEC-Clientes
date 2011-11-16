@@ -1,0 +1,38 @@
+<h1>Editando cliente</h1>
+
+<% form_for(@cliente) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label 'Nome:' %>
+    <%= f.text_field :nome %>
+  </p>
+  <p>
+    <%= f.label 'Endereço:' %>
+    <%= f.text_field :endereco %>
+  </p>
+  <p>
+    <%= f.label 'Cidade:' %>
+    <%= f.text_field :cidade %>
+  </p>
+  <p>
+    <%= f.label 'Estado:' %>
+    <%= f.text_field :estado %>
+  </p>
+  <p>
+    <%= f.label 'CEP:' %>
+    <%= f.text_field :cep %>
+  </p>
+  <p>
+    <%= f.label 'Cód. Área:' %>
+    <%= f.text_field :operadora %>
+	<%= f.label 'Fone:' %>
+    <%= f.text_field :fone %>
+  </p>
+  <p>
+    <%= f.submit "Atualizar" %>
+  </p>
+<% end %>
+
+<%= link_to 'Exibir', @cliente %> |
+<%= link_to 'Voltar', clientes_path %>

@@ -1,0 +1,19 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  codigo: MyString
+  descr: MyString
+  larg: MyString
+  alt: MyString
+  prof: MyString
+  qtde: MyString
+  preco: MyString
+
+two:
+  codigo: MyString
+  descr: MyString
+  larg: MyString
+  alt: MyString
+  prof: MyString
+  qtde: MyString
+  preco: MyString

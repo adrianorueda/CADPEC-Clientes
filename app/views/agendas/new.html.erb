@@ -1,0 +1,15 @@
+<h1>Novo agendamento para <%= @cliente.nome %></h1>
+
+<% form_for([@cliente, @agenda]) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label 'Agendar para: ' %>
+    <%= f.text_field :retorno %>
+  </p>
+  <p>
+    <%= f.submit "Salvar" %>
+  </p>
+<% end %>
+
+<%= link_to 'Voltar', cliente_agendas_path(@cliente) %>

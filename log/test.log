@@ -1,0 +1,100 @@
+Unable to load component, underlying cause no such file to load -- component 
+
+ C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:155:in `require'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:262:in `require_or_load'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:221:in `depend_on'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:133:in `require_dependency'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:856:in `try_to_load_dependency'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:871:in `require_fixture_classes'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:868:in `each'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:851:in `fixtures'
+C:\Users\Rueda\Documents\Aptana RadRails Workspace\CADPEC7\test/test_helper.rb:35
+C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./test/unit/cliente_test.rb:1
+C:\Users\Rueda\My Documents\Aptana RadRails Workspace\.metadata\.plugins\org.radrails.rails.core\run_unit.rb:2:in `load'
+C:\Users\Rueda\My Documents\Aptana RadRails Workspace\.metadata\.plugins\org.radrails.rails.core\run_unit.rb:2
+C:\Users\Rueda\My Documents\Aptana RadRails Workspace\.metadata\.plugins\org.radrails.rails.core\run_unit.rb:2:in `each'
+C:\Users\Rueda\My Documents\Aptana RadRails Workspace\.metadata\.plugins\org.radrails.rails.core\run_unit.rb:2
+C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Users/Rueda/My Documents/Aptana RadRails Workspace/.metadata/.plugins/org.rubypeople.rdt.testunit/ruby/RemoteTestRunner.rb:301
+Unable to load tag, underlying cause no such file to load -- tag 
+
+ C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:155:in `require'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:262:in `require_or_load'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:221:in `depend_on'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:133:in `require_dependency'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:856:in `try_to_load_dependency'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:871:in `require_fixture_classes'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:868:in `each'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:851:in `fixtures'
+C:\Users\Rueda\Documents\Aptana RadRails Workspace\CADPEC7\test/test_helper.rb:35
+C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./test/unit/cliente_test.rb:1
+C:\Users\Rueda\My Documents\Aptana RadRails Workspace\.metadata\.plugins\org.radrails.rails.core\run_unit.rb:2:in `load'
+C:\Users\Rueda\My Documents\Aptana RadRails Workspace\.metadata\.plugins\org.radrails.rails.core\run_unit.rb:2
+C:\Users\Rueda\My Documents\Aptana RadRails Workspace\.metadata\.plugins\org.radrails.rails.core\run_unit.rb:2:in `each'
+C:\Users\Rueda\My Documents\Aptana RadRails Workspace\.metadata\.plugins\org.radrails.rails.core\run_unit.rb:2
+C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Users/Rueda/My Documents/Aptana RadRails Workspace/.metadata/.plugins/org.rubypeople.rdt.testunit/ruby/RemoteTestRunner.rb:301
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+Unable to load component, underlying cause no such file to load -- component 
+
+ C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:155:in `require'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:262:in `require_or_load'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:221:in `depend_on'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:133:in `require_dependency'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:856:in `try_to_load_dependency'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:871:in `require_fixture_classes'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:868:in `each'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:851:in `fixtures'
+C:\Users\Rueda\Documents\Aptana RadRails Workspace\CADPEC7\test/test_helper.rb:35
+C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./test/functional/clientes_controller_test.rb:1
+C:\Users\Rueda\My Documents\Aptana RadRails Workspace\.metadata\.plugins\org.radrails.rails.core\run_functional.rb:2:in `load'
+C:\Users\Rueda\My Documents\Aptana RadRails Workspace\.metadata\.plugins\org.radrails.rails.core\run_functional.rb:2
+C:\Users\Rueda\My Documents\Aptana RadRails Workspace\.metadata\.plugins\org.radrails.rails.core\run_functional.rb:2:in `each'
+C:\Users\Rueda\My Documents\Aptana RadRails Workspace\.metadata\.plugins\org.radrails.rails.core\run_functional.rb:2
+C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Users/Rueda/My Documents/Aptana RadRails Workspace/.metadata/.plugins/org.rubypeople.rdt.testunit/ruby/RemoteTestRunner.rb:301
+Unable to load tag, underlying cause no such file to load -- tag 
+
+ C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:155:in `require'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:262:in `require_or_load'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:221:in `depend_on'
+C:/ruby/lib/ruby/gems/1.8/gems/activesupport-2.2.2/lib/active_support/dependencies.rb:133:in `require_dependency'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:856:in `try_to_load_dependency'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:871:in `require_fixture_classes'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:868:in `each'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:868:in `require_fixture_classes'
+C:/ruby/lib/ruby/gems/1.8/gems/activerecord-2.2.2/lib/active_record/fixtures.rb:851:in `fixtures'
+C:\Users\Rueda\Documents\Aptana RadRails Workspace\CADPEC7\test/test_helper.rb:35
+C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+./test/functional/clientes_controller_test.rb:1
+C:\Users\Rueda\My Documents\Aptana RadRails Workspace\.metadata\.plugins\org.radrails.rails.core\run_functional.rb:2:in `load'
+C:\Users\Rueda\My Documents\Aptana RadRails Workspace\.metadata\.plugins\org.radrails.rails.core\run_functional.rb:2
+C:\Users\Rueda\My Documents\Aptana RadRails Workspace\.metadata\.plugins\org.radrails.rails.core\run_functional.rb:2:in `each'
+C:\Users\Rueda\My Documents\Aptana RadRails Workspace\.metadata\.plugins\org.radrails.rails.core\run_functional.rb:2
+C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+C:/ruby/lib/ruby/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+C:/Users/Rueda/My Documents/Aptana RadRails Workspace/.metadata/.plugins/org.rubypeople.rdt.testunit/ruby/RemoteTestRunner.rb:301
+  [4;36;1mSQL (0.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.0ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m

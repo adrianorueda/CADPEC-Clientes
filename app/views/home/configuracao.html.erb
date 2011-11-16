@@ -1,0 +1,22 @@
+<h1>Configurações</h1>
+ 
+    <% form_for :dump, :url=>{:controller=>"vendedors", :action=>"reports"}, :html => { :multipart => true } do |f| -%>
+ <table>
+	<tr>
+	  <td colspan='2'>
+		<%= submit_tag 'Vendedores'-%>
+	  </td>
+	</tr>
+ </table>
+ <% end -%>
+     <% form_for :dump, :url=>{:controller=>"especials", :action=>"opcoes"}, :html => { :multipart => true } do |f| -%>
+ <table>
+	<tr>
+	  <td colspan='2'>
+		<%= submit_tag 'Armários Especiais'-%>
+	  </td>
+	</tr>
+ </table>
+ <% end -%>
+
+<br />

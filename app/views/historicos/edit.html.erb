@@ -1,0 +1,16 @@
+<h1>Editando contato</h1>
+
+<% form_for([@cliente, @historico]) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label 'Observação' %><br />
+    <%= f.text_area :observ %>
+  </p>
+  <p>
+    <%= f.submit "Atualizar" %>
+  </p>
+<% end %>
+
+<%= link_to 'Exibir', cliente_historico_path(@cliente, @historico) %> |
+<%= link_to 'Voltar', cliente_historicos_path(@cliente) %>

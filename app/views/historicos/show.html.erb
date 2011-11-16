@@ -1,0 +1,17 @@
+<h1>Contato com <%= @cliente.nome %></h1>
+
+<p>
+  <b>Contato em:</b>
+  <%=h @historico.created_at %>
+</p>
+<p>
+  <b>Alterado em:</b>
+  <%=h @historico.updated_at %>
+</p>
+<p>
+  <b>Observação:</b>
+  <i style='color:#FF0000;'><%=h @historico.observ %></i>
+</p>
+
+<%= link_to 'Editar', edit_cliente_historico_path(@cliente, @historico) %> |
+<%= link_to 'Voltar', cliente_historicos_path(@cliente) %>

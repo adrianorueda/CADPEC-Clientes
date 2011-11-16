@@ -1,0 +1,26 @@
+<h1>Agenda de <%= @cliente.nome %></h1>
+
+<table>
+  <tr>
+    <th>Retornar em:</th>
+  </tr>
+
+<% for agenda in @agendas %>
+  <tr>
+    <td><%=h agenda.retorno %></td>
+    <td><%= link_to 'Exibir', cliente_agenda_path(@cliente, agenda) %></td>
+    <td>
+        <%= link_to 'Editar', edit_cliente_agenda_path(@cliente, agenda) %>
+    </td>
+    <td>
+        <%= link_to 'Excluir', cliente_agenda_path(@cliente, agenda),
+            :confirm => 'Confirma?', :method => :delete %>
+    </td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Nova agenda', new_cliente_agenda_path(@cliente) %>
+<%= link_to 'Voltar para cliente', @cliente %>

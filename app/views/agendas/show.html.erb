@@ -1,0 +1,13 @@
+<h1>Agendamento para <%= @cliente.nome %></h1>
+
+<p>
+  <h3>Agendado para:
+  <i style='color:#FF0000;'><%=h @agenda.retorno %></i></h3>
+  <b>Agendado em:</b>
+  <%=h @agenda.created_at %>
+  <b>Alterado em:</b>
+  <%=h @agenda.updated_at %>
+</p>
+
+<%= link_to 'Editar', edit_cliente_agenda_path(@cliente, @agenda) %> |
+<%= link_to 'Voltar', cliente_agendas_path(@cliente) %>

@@ -1,0 +1,30 @@
+<h1>Históricos de <%= @cliente.nome %></h1>
+
+<table>
+  <tr>
+    <th>Data</th>
+	<th>Alterado</th>
+	<th>Observação</th>
+  </tr>
+
+<% for historico in @historicos %>
+  <tr>
+    <td><%=h historico.created_at %></td>
+	<td><%=h historico.updated_at %></td>
+    <td><i style='color:#FF0000;'><%=h historico.observ %></i></td>
+    <td><%= link_to 'Exibir', cliente_historico_path(@cliente, historico) %></td>
+    <td>
+        <%= link_to 'Editar', edit_cliente_historico_path(@cliente, historico) %>
+    </td>
+    <td>
+        <%= link_to 'Excluir', cliente_historico_path(@cliente, historico),
+            :confirm => 'Confirma?', :method => :delete %>
+    </td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'Novo Contato', new_cliente_historico_path(@cliente) %>
+<%= link_to 'Voltar para cliente', @cliente %>

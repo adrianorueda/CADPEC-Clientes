@@ -1,0 +1,11 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  npedido: MyString
+  campo1: MyString
+  campo2: MyString
+
+two:
+  npedido: MyString
+  campo1: MyString
+  campo2: MyString

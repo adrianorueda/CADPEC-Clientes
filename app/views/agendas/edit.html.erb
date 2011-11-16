@@ -1,0 +1,22 @@
+<h1>Editando agenda de <%= @cliente.nome %></h1>
+
+<% form_for([@cliente, @agenda]) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <b>Agendado em:</b>
+    <%=h @agenda.created_at %>
+    <b>Alterado em:</b>
+    <%=h @agenda.updated_at %>
+  </p>
+  <p>
+    <b><%= f.label 'Alterar agenda para: ' %></b>
+    <%= f.text_field :retorno %>
+  </p>
+  <p>
+    <%= f.submit "Atualizar" %>
+  </p>
+<% end %>
+
+<%= link_to 'Exibir', cliente_agenda_path(@cliente, @agenda) %> |
+<%= link_to 'Voltar', cliente_agendas_path(@cliente) %>
